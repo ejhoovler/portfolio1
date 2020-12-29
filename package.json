@@ -1,6 +1,6 @@
 {
-  "name": "mdbootstrap",
-  "version": "4.19.1",
+  "name": "portfolio",
+  "version": "2.0.1",
   "main": "dist/js/mdb.js",
   "scripts": {
     "js-compile-plugins": "babel --presets env js/src/ --out-dir js/dist/",
