@@ -1,4 +1,4 @@
-const gulp = require("gulp");
+const { series, gulp } = require("gulp");
 const sass = require("gulp-sass");
 const autoprefixer = require("gulp-autoprefixer");
 const cssmin = require("gulp-cssmin");
@@ -8,8 +8,26 @@ const minify = require("gulp-minify");
 const rename = require("gulp-rename");
 const imagemin = require("gulp-imagemin");
 const fs = require("fs");
+const { exec } = require("child_process");
 
 const cssAddonsPath = "./css/modules/";
+
+function git(done) {
+  return exec('git add . && git commit -m "netlify deploy" && git push');
+  done();
+}
+
+function netlify(done) {
+  return new Promise(function(resolve, reject) {
+    console.log(execSync('netlify watch').toString());
+    resolve();
+  });
+}
+
+function netlifyOpen(done) {
+  return exec('netlify open:site');
+  done();
+}
 
 // CSS Tasks
 gulp.task("css-compile-modules", (done) => {
@@ -133,3 +151,6 @@ function getJSModules() {
   delete require.cache[require.resolve("./js/modules.js")];
   return require("./js/modules");
 }
+
+
+exports.deploy = series(git, netlify, netlifyOpen);
