@@ -20,7 +20,7 @@ module.exports = {
                 short_name: "portfolio",
                 start_url: "/",
                 display: "minimal-ui",
-                icon: "src/images/01.png",
+                icon: "src/images/one.png",
             },
         },
         `gatsby-plugin-sharp`,
