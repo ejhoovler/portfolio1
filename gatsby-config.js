@@ -1,14 +1,8 @@
 'use strict';
 
-const siteConfig = require('./gatsby-config.js');
-
 module.exports = {
     siteMetadata: {
-        url: siteConfig.url,
-        title: siteConfig.title,
-        copyright: siteConfig.copyright,
-        menu: siteConfig.menu,
-        author: siteConfig.author
+        title: "Portfolio",
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
