@@ -4,7 +4,7 @@
   "description": "Portfolio built with React, MDBootstrap, and Gatsby",
   "main": "index.js",
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm run build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
