@@ -1,6 +1,14 @@
+'use strict';
+
+const siteConfig = require('./config.js');
+
 module.exports = {
     siteMetadata: {
-        title: "Portfolio",
+        url: siteConfig.url,
+        title: siteConfig.title,
+        copyright: siteConfig.copyright,
+        menu: siteConfig.menu,
+        author: siteConfig.author
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -25,5 +33,6 @@ module.exports = {
         },
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
+        `gatsby-plugin-netlify`,
     ],
 }
