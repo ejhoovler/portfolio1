@@ -1,17 +1,15 @@
 {
-  "name": "portfolio2",
+  "name": "portfolio1",
   "version": "1.0.0",
   "description": "Portfolio built with React, MDBootstrap, and Gatsby",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "build": "npm run clean && gatsby build",
+    "develop": "npm run clean && gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
