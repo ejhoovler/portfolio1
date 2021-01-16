@@ -1,6 +1,6 @@
 'use strict';
 
-const siteConfig = require('./config.js');
+const siteConfig = require('./gatsby-config.js');
 
 module.exports = {
     siteMetadata: {
