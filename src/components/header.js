@@ -26,13 +26,6 @@ class Header extends React.Component {
     render() {
         const { collapseID } = this.state;
         const navStyle = { marginTop: '4rem' };
-        const overlay = (
-            <div 
-                id='sidenav-overlay' 
-                style={{ backgroundColor: 'transparent' }} 
-                onClick={() => this.toggleCollapse('navbarCollapse')} 
-            />
-        );
 
         return (
             <div id='videobackground'>
@@ -71,12 +64,12 @@ class Header extends React.Component {
                         </MDBCollapse>
                         </MDBContainer>
                     </MDBNavbar>
-                    {collapseID && overlay}
+                    {collapseID}
                     </div>
                 </Router>
 
                 <MDBView>
-                    <MDBMask className='gradient'>
+                    <MDBMask className='morpheus-den-gradient'>
                         <video className='video-intro' poster='https://mdbootstrap.com/img/Photos/Others/background.jpg' muted loop autoplay>
                             <source src='https://mdbootstrap.com/img/video/animation.mp4' type='video/mp4' />
                         </video>

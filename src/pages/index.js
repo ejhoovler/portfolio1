@@ -7,11 +7,9 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 
 export default () => (
-    <Layout>
-        <Container className='morpheus-den-gradient'>                        
-            <section>
+    <Layout className='morpheus-den-gradient'>
+        <Container>                        
                 <ProjectCards />
-            </section>
         </Container>
     </Layout>
 )
