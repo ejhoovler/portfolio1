@@ -2,16 +2,13 @@
   "name": "portfolio1",
   "version": "1.0.0",
   "description": "Portfolio built with React, MDBootstrap, and Gatsby",
-  "main": "index.js",
   "scripts": {
-    "build": "npm run clean && gatsby build",
-    "develop": "npm run clean && gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "clean": "gatsby clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Elise Hoovler",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
