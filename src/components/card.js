@@ -50,7 +50,7 @@ class ProjectCards extends React.Component {
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
                             <a href='https://leeleesunicorns.com' className='px-2 fa-lg hoverable rounded' target='_blank' rel='noreferrer'>
-                                View Here!
+                                ~View Here~
                             </a>
                         </MDBCol>
                     </MDBCardBody>
@@ -73,7 +73,7 @@ class ProjectCards extends React.Component {
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
                             <a href='https://stlthoughtlesscreations.com' className='px-2 fa-lg hoverable' target='_blank' rel='noreferrer'>
-                                View Here!
+                                ~View Here~
                             </a>
                         </MDBCol>
                     </MDBCardBody>
@@ -97,7 +97,7 @@ class ProjectCards extends React.Component {
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
                             <a href='https://leeleeswreaths.netlify.app' className='px-2 fa-lg' role='button'  target='_blank' rel='noreferrer'>
-                                View Here!
+                                ~View Here~
                             </a>
                         </MDBCol>
                     </MDBCardBody>
@@ -119,7 +119,7 @@ class ProjectCards extends React.Component {
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
                             <a href='https://firstejhportfolio.netlify.app' className='px-2 fa-lg' role='button'  target='_blank' rel='noreferrer'>
-                                View Here!
+                                ~View Here~
                             </a>
                         </MDBCol>
                     </MDBCardBody>
@@ -141,11 +141,7 @@ class ProjectCards extends React.Component {
                         <MDBCardText className='cyan-text'>
                             Small marketing business landing page built with...
                         </MDBCardText>
-                        <MDBCol className='d-flex justify-content-center'>
-                            <a className='px-2 fa-lg' role='button' target='_blank' rel='noreferrer'>
-                                ~View Here~
-                            </a>
-                        </MDBCol>
+                        
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
