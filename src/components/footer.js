@@ -8,8 +8,8 @@ class Footer extends React.Component {
             <section id="footer" className='page-footer text-white text-center indigo darken-4 py-4'>
                 <div className='container'>
                     <MDBRow>
-                        <MDBCol md='6' className='d-flex justify-content-start'>
-                            <div className='footer-copyright text-center bg-transparent'>
+                        <MDBCol md='6' className='d-flex justify-content-center'>
+                            <div className='footer-copyright bg-transparent'>
                                 © 2020 Copyright: Elise J Hoovler
                             </div>
                         </MDBCol>

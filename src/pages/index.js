@@ -7,7 +7,6 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css'; 
 import 'mdbreact/dist/css/mdb.css';
 
-
 class Index extends React.Component {
     constructor(props) {
         super(props)
@@ -20,11 +19,22 @@ class Index extends React.Component {
         return (
             <Layout>
                 <Helmet title="Elise Hoovler" />
+                <div id='main'>
+                    <section>
+                        <Container>
 
-                <Container>
-                    <ProjectCards />
-                </Container>
+                        </Container>
+                    </section>
+
+                    <section>
+                        <Container>
+                            <ProjectCards />
+                        </Container>
+                    </section>
+                </div>
             </Layout>
         )
     }
 }
+
+export default Index;
