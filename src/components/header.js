@@ -14,7 +14,6 @@ class Header extends React.Component {
         }));
     }
         
-
         componentDidMount() {
             document.querySelector('nav').style.height = '65px';
         }
@@ -91,16 +90,16 @@ class Header extends React.Component {
                     </MDBContainer>
                 </MDBView>
 
-                <MDBContainer className='text-center morpheus-den-gradient text-white'>
+                <MDBContainer className='text-center'>
                     <MDBRow className='pt-5 pb-4'>
-                        <MDBCol md='12'>
+                        <MDBCol md='12' className='justify-content-center'>
                             <p>
                                 Welcome to my Portfolio Page!
                                 <br />
                 I am a self-motivated and detail-oriented, multi-tasking
                 individual with strong communication skills <br />and a passion for creativity.
                 I've always had a strong desire to be in the tech industry, <br />specifically web
-                development and design. About two to three years ago, I began learning through many <br />self-taught courses on HTML, CSS, Bootstrap, JavaScript, React, Node.js and npm, using Github and Gatsbyjs, etc... <br />I am extremely eager to continue studying and currently take on freelance work to expand my experience.
+                development and design. About three years ago, I began learning through many <br />self-taught courses on HTML, CSS, Bootstrap, JavaScript, React, Node.js and npm, using Github and Gatsbyjs, etc... <br />I am extremely eager to continue studying and currently take on freelance work to expand my experience.
                             </p>
                         </MDBCol>
                     </MDBRow>

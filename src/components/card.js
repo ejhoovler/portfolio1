@@ -10,8 +10,8 @@ import one from '../images/one.png'
 class ProjectCards extends React.Component {
     render() {
         return (
-            <div className='container morpheus-den-gradient'>
-        <MDBRow>
+            <div className='container-fluid morpheus-den-gradient'>
+        <MDBRow className='d-flex align-items-center'>
             <MDBCol md='4'>
                 <MDBCard wide cascade style={{ width: "22rem" }}>
                     <MDBView cascade>
@@ -27,7 +27,7 @@ class ProjectCards extends React.Component {
                             they wanted for marketing purposes and generating more business.
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
-                            <a href='https://enchanted.netlify.app' className='px-2 fa-lg hoverable rounded' target='_blank' rel='noreferrer'>
+                            <a href='https://enchanted.netlify.app' className='px-2 fa-lg hoverable rounded link-info' target='_blank' rel='noreferrer'>
                                 ~View Here~
                             </a>
                         </MDBCol>
@@ -45,11 +45,11 @@ class ProjectCards extends React.Component {
                         <MDBCardTitle className='card-title'>
                             <strong>LeeLeeS UniCornS</strong>
                         </MDBCardTitle>
-                        <MDBCardText className='font-weight-bold cyan-text'>
+                        <MDBCardText className='font-weight-medium cyan-text'>
                             This is my problem child ecommerce project. Just ignore this for now.
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
-                            <a href='https://leeleesunicorns.com' className='px-2 fa-lg hoverable rounded' target='_blank' rel='noreferrer'>
+                            <a href='https://leeleesunicorns.com' className='px-2 fa-lg hoverable rounded  link-info' target='_blank' rel='noreferrer'>
                                 ~View Here~
                             </a>
                         </MDBCol>
@@ -67,12 +67,12 @@ class ProjectCards extends React.Component {
                         <MDBCardTitle className='card-title'>
                             <strong>STL Thoughtless Creations</strong>
                         </MDBCardTitle>
-                        <MDBCardText className='font-weight-bold cyan-text'>
+                        <MDBCardText className='font-weight-medium cyan-text'>
                             This is a site I am building with Gulp and Material Design  for a startup t-shirt business
                             they want for marketing and generating more sales.
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
-                            <a href='https://stlthoughtlesscreations.com' className='px-2 fa-lg hoverable' target='_blank' rel='noreferrer'>
+                            <a href='https://stlthoughtlesscreations.com' className='px-2 fa-lg hoverable rounded  link-info' target='_blank' rel='noreferrer'>
                                 ~View Here~
                             </a>
                         </MDBCol>
@@ -80,8 +80,8 @@ class ProjectCards extends React.Component {
                 </MDBCard>
             </MDBCol>
         </MDBRow>
-
-        <MDBRow>
+            <br />
+        <MDBRow className='d-flex align-items-center'>
             <MDBCol md='4'>
                 <MDBCard wide cascade style={{ width: "22rem" }}>
                     <MDBView cascade>
@@ -92,11 +92,11 @@ class ProjectCards extends React.Component {
                         <MDBCardTitle className='card-title'>
                             <strong>LeeLees Wreaths & Decor</strong>
                         </MDBCardTitle>
-                        <MDBCardText className='font-weight-bold cyan-text'>
+                        <MDBCardText className='font-weight-medium cyan-text'>
                             Photo gallery for my handmade wreath business. All photos are of sold wreaths.
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
-                            <a href='https://leeleeswreaths.netlify.app' className='px-2 fa-lg' role='button'  target='_blank' rel='noreferrer'>
+                            <a href='https://leeleeswreaths.netlify.app' className='px-2 fa-lg hoverable rounded  link-info' role='button'  target='_blank' rel='noreferrer'>
                                 ~View Here~
                             </a>
                         </MDBCol>
@@ -114,11 +114,11 @@ class ProjectCards extends React.Component {
                         <MDBCardTitle className='card-title'>
                             <strong>Another Portfolio</strong>
                         </MDBCardTitle>
-                        <MDBCardText className='cyan-text'>
+                        <MDBCardText className='font-weight-medium cyan-text'>
                             My original portfolio page I built with Gatsby Stellar Template.
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
-                            <a href='https://firstejhportfolio.netlify.app' className='px-2 fa-lg' role='button'  target='_blank' rel='noreferrer'>
+                            <a href='https://firstejhportfolio.netlify.app' className='px-2 fa-lg hoverable rounded  link-info' role='button'  target='_blank' rel='noreferrer'>
                                 ~View Here~
                             </a>
                         </MDBCol>
@@ -138,7 +138,7 @@ class ProjectCards extends React.Component {
                                 Vivid Media Concepts, LLC
                             </strong>
                         </MDBCardTitle>
-                        <MDBCardText className='cyan-text'>
+                        <MDBCardText className='font-weight-medium cyan-text'>
                             Small marketing business landing page built with...
                         </MDBCardText>
                         

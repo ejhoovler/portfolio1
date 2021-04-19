@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import { Container } from 'react-bootstrap'
 import ProjectCards from '../components/card'
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import 'bootstrap-css-only/css/bootstrap.min.css'; 
@@ -20,16 +19,12 @@ class Index extends React.Component {
             <Layout>
                 <Helmet title="Elise Hoovler" />
                 <div id='main'>
-                    <section>
-                        <Container>
+                    <section className="container-fluid">
 
-                        </Container>
                     </section>
-
-                    <section>
-                        <Container>
+                    <br />
+                    <section className="container-fluid">
                             <ProjectCards />
-                        </Container>
                     </section>
                 </div>
             </Layout>
