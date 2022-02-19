@@ -24,6 +24,7 @@
     "gatsby-source-filesystem": "^4.1.0",
     "gatsby-transformer-sharp": "^4.1.0",
     "jquery": "^3.6.0",
+    "mdb-react-ui-kit": "^2.3.0",
     "mdbootstrap": "^4.20.0",
     "mdbreact": "^5.1.0",
     "node-sass": "^6.0.1",
