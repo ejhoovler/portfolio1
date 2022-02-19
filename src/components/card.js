@@ -23,8 +23,7 @@ class ProjectCards extends React.Component {
                             <strong>Enchanted STL</strong>
                         </MDBCardTitle>
                         <MDBCardText className='font-weight-medium cyan-text'>
-                            This was a site I built for a small photobooth business
-                            they wanted for marketing purposes and generating more business.
+                            Website built for local photobooth business with Gatsby.js and React.
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
                             <a href='https://enchanted.netlify.app' className='px-2 fa-lg hoverable rounded link-info' target='_blank' rel='noreferrer'>
@@ -46,7 +45,7 @@ class ProjectCards extends React.Component {
                             <strong>LeeLeeS UniCornS</strong>
                         </MDBCardTitle>
                         <MDBCardText className='font-weight-medium cyan-text'>
-                            This is my problem child ecommerce project. Just ignore this for now.
+                            This is a demo ecommerce site built with Gatsby.js, Stripe and React. Currently work/update in progress.
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
                             <a href='https://leeleesunicorns.com' className='px-2 fa-lg hoverable rounded  link-info' target='_blank' rel='noreferrer'>
@@ -68,8 +67,7 @@ class ProjectCards extends React.Component {
                             <strong>STL Thoughtless Creations</strong>
                         </MDBCardTitle>
                         <MDBCardText className='font-weight-medium cyan-text'>
-                            This is a site I am building with Gulp and Material Design  for a startup t-shirt business
-                            they want for marketing and generating more sales.
+                            This is a site I was building with Gulp and Material Design  for a startup t-shirt business.
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
                             <a href='https://stlthoughtlesscreations.com' className='px-2 fa-lg hoverable rounded  link-info' target='_blank' rel='noreferrer'>
@@ -93,10 +91,10 @@ class ProjectCards extends React.Component {
                             <strong>LeeLees Wreaths & Decor</strong>
                         </MDBCardTitle>
                         <MDBCardText className='font-weight-medium cyan-text'>
-                            Photo gallery for my handmade wreath business. All photos are of sold wreaths.
+                            Photo gallery for my handmade wreath business. All photos are of sold wreaths. Built with Gatsby.js and React.
                         </MDBCardText>
                         <MDBCol md='12' className='d-flex justify-content-center'>
-                            <a href='https://leeleeswreaths.netlify.app' className='px-2 fa-lg hoverable rounded  link-info' role='button'  target='_blank' rel='noreferrer'>
+                            <a href='https://leeleeswreaths.com/' className='px-2 fa-lg hoverable rounded  link-info' role='button'  target='_blank' rel='noreferrer'>
                                 ~View Here~
                             </a>
                         </MDBCol>
