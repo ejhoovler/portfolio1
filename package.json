@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio built with React, MDBootstrap, and Gatsby",
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm run build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "clean": "gatsby clean",
